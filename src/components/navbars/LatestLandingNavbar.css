@@ -1,0 +1,32 @@
+.nav {
+    /* background:rgba(128, 119, 119, 0.8); */
+    /* background:#807777; */
+    background: white;
+    /* background:rgb(122,94,71); */
+    font-family: "DM Sans", sans-serif;
+    z-index:50;
+  }
+
+
+@media (max-width:900px){ 
+    .nav-link{ 
+        margin-left: 0px;
+        padding: 5px 5px;
+    }
+    .nav-btn1,.nav-btn2{ 
+        padding: 10px 15px; 
+    }
+    .nav-info{ 
+        padding-left:20px;
+    }
+}
+@media (max-width:650px){ 
+    .nav-info{ 
+        padding-left:3px;
+    }
+}
+@media (max-width:400px){ 
+    .nav-info{ 
+        padding-left:0px;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
+  font-family: 'DM Sans', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.gradient__border:hover {
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-image: linear-gradient(to bottom, #7f3dff, #fcfcfc) 3 100%;
+}
+/* 
+.errorStyle {
+    @apply p-3 bg-[#ffefef] border border-red-500 text-red-500 rounded-lg mt-6
+}
+.successStyle{ 
+    @apply p-3 bg-[#cefad0] border border-green-500 text-green-500 rounded-lg mt-6
+}
+.inputStyle{
+    @apply block p-3 mt-3 mb-6 w-full border border-[#ddd] rounded-lg box-border
+}
+.formButton{
+    @apply bg-themePurple py-3 rounded text-white w-28 cursor-pointer
+}
+.successStyle{ 
+    @apply p-3 bg-[#cefad0] border border-green-500 text-green-500 rounded-lg mt-6
+}  */

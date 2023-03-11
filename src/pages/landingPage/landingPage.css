@@ -1,0 +1,17 @@
+.landingPage{ 
+    font-family: 'DM sans',sans-serif;
+}
+
+
+
+.heroContainer{ 
+    font-family: 'DM Sans', sans-serif;
+    /* position: 'relative' !important; */
+    /* z-index: '10' !important; */
+}
+@media(max-width:1024){ 
+    .heros{ 
+        display: flex;
+        max-width:1000px;
+    }
+}

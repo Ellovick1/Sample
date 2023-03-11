@@ -1,0 +1,25 @@
+.whyMend{
+    margin-bottom: 3.5rem !important;
+    box-shadow: 15px 20px #F2F2F2;
+    /* position: absolute; */
+}
+.whyMend2{
+    margin-bottom: 3.5rem;
+    margin-left: auto !important;
+    margin-bottom: 4rem !important;
+    box-shadow: 20px 25px #7F3DFF;
+}
+
+@media (max-width:425px) {
+    .whyMend{
+        text-align: center !important;
+        width: 100%;
+    }
+    .whyMend2{
+        text-align: center !important;
+        width: 100%;
+    }
+    .card-img{
+        justify-content: center;
+    }
+}
